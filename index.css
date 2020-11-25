@@ -1,0 +1,364 @@
+    :root {
+        --background-color: #FFFFFF;
+        --nav-tabs: #000000;
+        --font: 'Poppins', sans-serif;
+        --off-gray: #757470;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        background-color: var(--background-color);
+        scroll-behavior: smooth;
+    }
+
+    
+    nav {
+        background-color: #FFFFFF;
+    }
+
+    .nav-item {
+       margin-bottom: -2em;
+       transition: .2s ease-out;
+    }
+    nav .navbar-nav li a{
+        color: var(--nav-tabs) !important;
+        margin-right: 1em;
+        padding-top: 2em;
+        font-size: 16px;
+        padding-bottom: 3.5em;
+        font-family: var(--font);
+    }
+
+    .navbar .navbar-toggler-icon {
+        color: black !important;
+    }
+
+
+    #navList a:hover {
+        color: #000000;
+    }
+
+    .links {
+        float: right;
+        display: flex;
+        min-width: 40vw;
+        justify-content: space-between;
+    }
+
+    #hero {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        min-width: 100%; 
+        min-height: 90%;
+    }
+
+    #hero:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 85vh;
+        top: 0;
+        left: 0;
+        background: url(assets/hero.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        filter: brightness(.7);
+    }
+
+    #hero .content {
+        color: var(--logo-color);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        font-family: var(--font);
+    }
+
+    .our-btn {
+        text-decoration: none;
+        margin-top: 3rem;
+        padding: 10px 15px;
+        background-color: var(--off-gray);
+        color: white;
+        transition: .2s linear;
+        align-self: center;
+        font-family: var(--font);
+        border-radius: 5%;
+    }
+
+    .our-btn:hover {
+        text-decoration: none;
+        color: #000;
+        background-color: #a8a6a1;
+    }
+
+    .mission-btn {
+        text-decoration: none;
+        margin-top: 1rem;
+        padding: 10px 15px;
+        background-color: var(--off-gray);
+        color: white;
+        transition: .2s linear;
+        align-self: center;
+        font-family: var(--font);
+        border-radius: 5%;
+    }
+
+    .mission-btn:hover {
+        text-decoration: none;
+        color: #000;
+        background-color: #a8a6a1;
+    }
+
+    #hero .content h1 {
+        color: white;
+    }
+
+    #mission {
+        margin: 1em;
+        margin-top: -2em;
+    }
+
+    #mission h3 {
+        margin: 2em;
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 2rem;
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+
+    #mission .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    #mission .content .my-img {
+        padding-bottom: 1rem;
+    }
+
+    #mission .content .offer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 6rem;
+    }
+
+    #mission .content .offer .wrapped-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #mission .content .offer .wrapped-flex p{
+        text-align: center;
+    }
+
+     #mission .content .why-marketing .wrapped-flex p{
+        text-align: center;
+    }
+
+    #mission .content .offer .wrapped-flex h3{
+        font-size: 31px;
+        margin-bottom: 0rem;
+    }
+
+    #mission .content .why-marketing .wrapped-flex h3{
+        font-size: 31px;
+        margin-bottom: 0rem;
+    }
+
+      #mission .content .why-marketing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 6rem;
+    }
+
+    #mission .content .why-marketing .wrapped-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #mission {
+        margin-bottom: 2rem;
+    }
+
+
+    .footer {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+    background-color: #a8a6a1;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5em;
+    
+}
+
+.footer h3 {
+    font-size: 1.3em;
+}
+
+
+.footer-contact {
+    color: #434240;
+    text-decoration: none;
+}
+
+.footer-contact:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    padding-top: 1em;
+    font-size: 1.2em;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    #hero:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        top: 0;
+        left: 0;
+        background: url(assets/hero.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        filter: brightness(.7);
+    }
+
+    #hero .content {
+        color: var(--logo-color);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: var(--font);
+    }
+
+    .our-btn {
+        text-decoration: none;
+        margin-top: 3rem;
+        padding: 10px 15px;
+        background-color: var(--off-gray);
+        color: #FFFFFF;
+        transition: .2s linear;
+        align-self: center;
+        font-family: var(--font);
+    }
+
+    .our-btn:hover {
+        text-decoration: none;
+        color: #000;
+        background-color: #eee;
+    }
+
+    #mission h3 {
+        margin: 2em;
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 2.7rem;
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+
+    #mission .content {
+        font-family: var(--font)
+    }
+
+     #mission .content .my-img {
+        width: 40%;
+        height: 20%;
+    }
+
+    #mission .content .offer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    #mission .content .offer .wrapped-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 40%;
+    }
+
+    #mission .content .offer .wrapped-flex h3{
+        font-size: 31px;
+    }
+
+    #mission .content .offer .wrapped-flex p{
+        padding-top: 1em;
+        text-align: center;
+        line-height: 2em;
+    }
+
+     #mission .content .why-marketing {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #mission .content .why-marketing .wrapped-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 40%;
+    }
+
+    #mission .content .offer .wrapped-flex h3{
+        font-size: 2rem;
+        margin-bottom: -1rem;
+    }
+
+    #mission .content .why-marketing .wrapped-flex h3{
+        font-size: 31px;
+        margin-bottom: -1rem;
+    }
+
+    #mission .content .why-marketing .wrapped-flex p{
+        padding-top: 1em;
+        text-align: center;
+        line-height: 2em;
+    }
+
+}

@@ -90,7 +90,7 @@
 
     #landing {
         position: relative;
-        height: 50vh;
+        height: 80vh;
         width: 100%;
         min-width: 100%; 
         min-height: 90%;
@@ -356,6 +356,14 @@
         top: 50%;
         transform: translate(-50%, -50%);
         font-family: var(--font);
+    }
+
+    #landing {
+        position: relative;
+        height: 50vh;
+        width: 100%;
+        min-width: 100%; 
+        min-height: 90%;
     }
 
      #landing .content {

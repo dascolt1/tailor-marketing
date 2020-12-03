@@ -22,14 +22,10 @@
         background-color: #FFFFFF;
     }
 
-    .navbar-brand {
-        padding-left: 1.5em;
-    }
 
     .nav-item {
        margin-bottom: -2em;
        transition: .2s ease-out;
-       padding-right: 1.5em;
     }
     nav .navbar-nav li a{
         color: var(--nav-tabs) !important;
@@ -90,6 +86,7 @@
 
     #landing {
         position: relative;
+        margin-top: 3em;
         height: 30vh;
         width: 100%;
         min-width: 100%; 
@@ -331,6 +328,16 @@
 
 
 @media only screen and (min-width: 768px) {
+
+    .navbar-brand {
+        padding-left: 1.5em;
+    }
+
+    .nav-item {
+       margin-bottom: -2em;
+       transition: .2s ease-out;
+       padding-right: 1.5em;
+    }
 
     #hero:before {
         content: '';

@@ -123,6 +123,45 @@
         font-size: 2em;
     }
 
+    #marketing-landing {
+        position: relative;
+        margin-top: 3em;
+        height: 30vh;
+        width: 100%;
+        min-width: 100%; 
+        min-height: 90%;
+    }
+
+    .marketing-landing-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/why-marketing-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        max-width: 100%;
+        position: relative;
+      }
+
+    #marketing-landing .content {
+        color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        top: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        font-family: var(--font);
+    }
+
+     #marketing-landing .content h1{
+        font-size: 2em;
+    }
+
     .our-btn {
         text-decoration: none;
         margin-top: 3rem;
@@ -452,6 +491,41 @@
         transform: translate(-50%, -50%);
         font-family: var(--font);
     }
+
+    #marketing-landing {
+        position: relative;
+        height: 50vh;
+        width: 100%;
+        min-width: 100%; 
+        min-height: 90%;
+    }
+
+    .marketing-landing-hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/why-marketing-hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        max-width: 100%;
+        position: relative;
+      }
+
+     #marketing-landing .content {
+        color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        top: 50%;
+        font-size: 2em;
+        transform: translate(-50%, -50%);
+        font-family: var(--font);
+    }
+
 
     .our-btn {
         text-decoration: none;

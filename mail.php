@@ -11,7 +11,7 @@ if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
     $subject = "Potential clients";
     $mailheader = "From: $email \r\n";
     mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-    header("Location: https://www.tailoredmarketinggroupllc.com"); 
+    header("Location: https://www.tailoredmarketinggroupllc.com/#contact"); 
     exit;
 }
 

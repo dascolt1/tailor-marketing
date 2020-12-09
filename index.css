@@ -791,6 +791,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    #marketing-landing .content {
+        color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        top: 50%;
+        font-size: 1em;
+        transform: translate(-50%, -50%);
+        font-family: var(--font);
+    }
+
     .footer h3 {
     font-size: 1.1em;
 }
